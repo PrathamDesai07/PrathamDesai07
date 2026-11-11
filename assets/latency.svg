@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 296" width="840" height="296" role="img" aria-label="Hot-path latency on a log scale. Pre-trade risk check: p50 50 to 150 nanoseconds, p99 500 nanoseconds to 2 microseconds. Cross-process IPC hop: p50 80 to 150 nanoseconds, p99 200 to 400 nanoseconds. Arbitrage gateway compute: about 0.3 microseconds.">
+  <rect x="0.5" y="0.5" width="839" height="295" rx="12" fill="#14181D" stroke="#2A313A"/>
+
+  <g font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="28" y="38" fill="#E8ECF1" font-size="16" font-weight="600">Hot-path latency</text>
+    <text x="28" y="58" fill="#8A94A1" font-size="12">Measured ranges, log scale</text>
+
+    <!-- legend -->
+    <rect x="700" y="27" width="10" height="10" rx="2" fill="#3987E5"/>
+    <text x="716" y="36.5" fill="#E8ECF1" font-size="12">p50</text>
+    <rect x="756" y="27" width="10" height="10" rx="2" fill="#D95926"/>
+    <text x="772" y="36.5" fill="#E8ECF1" font-size="12">p99</text>
+
+    <!-- row labels -->
+    <g fill="#E8ECF1" font-size="13">
+      <text x="28" y="104">Pre-trade risk check</text>
+      <text x="28" y="164">Cross-process IPC hop</text>
+      <text x="28" y="224">Arbitrage gateway compute</text>
+    </g>
+  </g>
+
+  <!-- grid -->
+  <g stroke="#2A313A">
+    <line x1="230.5" y1="76" x2="230.5" y2="250"/>
+    <line x1="420.5" y1="76" x2="420.5" y2="250"/>
+    <line x1="610.5" y1="76" x2="610.5" y2="250"/>
+    <line x1="800.5" y1="76" x2="800.5" y2="250"/>
+  </g>
+  <g fill="#8A94A1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" text-anchor="middle">
+    <text x="230" y="270">10 ns</text>
+    <text x="420" y="270">100 ns</text>
+    <text x="610" y="270">1 µs</text>
+    <text x="800" y="270" text-anchor="end">10 µs</text>
+  </g>
+
+  <!-- pre-trade risk check -->
+  <rect x="362.8" y="84" width="90.7" height="12" rx="4" fill="#3987E5"/>
+  <rect x="552.8" y="102" width="114.4" height="12" rx="4" fill="#D95926"/>
+  <!-- IPC hop -->
+  <rect x="401.6" y="144" width="51.9" height="12" rx="4" fill="#3987E5"/>
+  <rect x="477.2" y="162" width="57.2" height="12" rx="4" fill="#D95926"/>
+  <!-- gateway compute (single figure) -->
+  <circle cx="510.7" cy="220" r="5" fill="#8A94A1" stroke="#14181D" stroke-width="2"/>
+
+  <!-- direct labels -->
+  <g fill="#E8ECF1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+    <text x="462" y="94.5">50–150 ns</text>
+    <text x="676" y="112.5">500 ns–2 µs</text>
+    <text x="462" y="154.5">80–150 ns</text>
+    <text x="543" y="172.5">200–400 ns</text>
+    <text x="524" y="224.5">~0.3 µs</text>
+  </g>
+</svg>

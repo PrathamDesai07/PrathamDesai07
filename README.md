@@ -1,12 +1,24 @@
-# Pratham Desai
+<img src="assets/banner.svg" width="100%" alt="Pratham Desai. Low-latency C++ / HFT engineer. Systems measured in nanoseconds.">
 
-**Low-latency C++ / HFT engineer.** I build live trading, market-data and risk systems for NSE derivatives: feed handlers, lock-free infrastructure, and real-time Greeks and margin engines. Currently at ANV Fintech (Arham Share), Surat.
+[![Portfolio](https://img.shields.io/badge/Portfolio-14181D?style=for-the-badge&logo=githubpages&logoColor=F2A93B)](https://prathamdesai07.github.io/portfolio/)
+[![SSRN paper](https://img.shields.io/badge/SSRN_paper-14181D?style=for-the-badge&logo=readthedocs&logoColor=F2A93B)](https://doi.org/10.2139/ssrn.7676119)
+[![Email](https://img.shields.io/badge/Email-14181D?style=for-the-badge&logo=gmail&logoColor=F2A93B)](mailto:prathamdesai071204@gmail.com)
 
-[Portfolio](https://prathamdesai07.github.io/portfolio/) · [Email](mailto:prathamdesai071204@gmail.com)
+I build live trading, market-data and risk systems for NSE derivatives: feed handlers, lock-free infrastructure, and real-time Greeks and margin engines. Currently at ANV Fintech (Arham Share), Surat.
+
+![C++17](https://img.shields.io/badge/C%2B%2B17-14181D?style=flat-square&logo=cplusplus&logoColor=F2A93B)
+![C](https://img.shields.io/badge/C-14181D?style=flat-square&logo=c&logoColor=F2A93B)
+![Python](https://img.shields.io/badge/Python-14181D?style=flat-square&logo=python&logoColor=F2A93B)
+![Linux](https://img.shields.io/badge/Linux-14181D?style=flat-square&logo=linux&logoColor=F2A93B)
+![CUDA](https://img.shields.io/badge/CUDA-14181D?style=flat-square&logo=nvidia&logoColor=F2A93B)
+![DPDK](https://img.shields.io/badge/DPDK-14181D?style=flat-square)
+![AF_XDP](https://img.shields.io/badge/AF__XDP-14181D?style=flat-square)
 
 | 1.15M+ packets/sec | 50–150 ns p50 | 80–150 ns p50 | ~0.3 µs |
 |:---:|:---:|:---:|:---:|
 | MTBT feed handler | pre-trade risk check | cross-process IPC hop | arbitrage gateway compute |
+
+<img src="assets/latency.svg" width="100%" alt="Hot-path latency on a log scale. Pre-trade risk check: p50 50–150 ns, p99 500 ns–2 µs. Cross-process IPC hop: p50 80–150 ns, p99 200–400 ns. Arbitrage gateway compute: about 0.3 µs.">
 
 ## Experience
 
@@ -42,7 +54,6 @@ Contributor to **[CVXPY](https://github.com/cvxpy/cvxpy)**, the Python modelling
 
 ## Toolkit
 
-- **Languages**: C++17, C, Python, Bash
 - **Systems and performance**: Linux systems programming, CPU and cache behaviour, NUMA, IRQ and CPU pinning, hugepages, tail-latency profiling (perf, tcpdump)
 - **Networking**: AF_XDP, DPDK, kernel-bypass TCP/UDP, NIC tuning
 - **Trading and risk**: SPAN, MTM, AEL, peak margin, VaR, pre-trade risk checks
